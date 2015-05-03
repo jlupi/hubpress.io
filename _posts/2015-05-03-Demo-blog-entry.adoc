@@ -1,0 +1,35 @@
+= Demo blog entry
+
+Java vs groovy:
+
+=== Java
+
+[source=java]
+----
+// java
+List<String> list = new ArrayList<>();
+list.add("Hello");
+list.add(", ");
+list.add("world!");
+
+for (String text: list) {
+	System.out.println(text);
+}
+
+----
+
+
+=== Groovy
+
+----
+// groovy
+def list = ["Hello", ", ", "world!"]
+
+list.each {
+	print it
+}
+
+
+----
+
+
